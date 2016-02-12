@@ -2,3 +2,9 @@
 	background: none;
 	border: none;
 }
+
+.top {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
