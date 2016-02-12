@@ -5,6 +5,8 @@
 
 .top {
 	padding: 20px;
-	display: flex;
-	justify-content: space-between;
+}
+
+.footer {
+	text-align: center;
 }
