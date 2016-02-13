@@ -35,6 +35,10 @@ a:link, a:visited, a:hover, a:active {
 	border: none;
 }
 
+[data-carousel-3d]:before {
+	padding-top: 35%;
+}
+
 /********************************
  *			 TOP
  ********************************/
@@ -54,6 +58,10 @@ a:link, a:visited, a:hover, a:active {
 
  .code {
  	text-align: left;
+ }
+
+ .signature {
+ 	width: 550px;
  }
 
 /********************************
