@@ -1,16 +1,48 @@
+/********************************
+ *			GENERAL
+ ********************************/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #000000;
+}
+
+/********************************
+ *			CAROUSEL
+ ********************************/
+
 [data-carousel-3d] {
 	background: none;
 	border: none;
 }
 
-.top {
-	padding: 20px;
-}
+/********************************
+ *			FOOTER
+ ********************************/
 
-.footer {
-	text-align: center;
-}
-
-a:link, a:visited, a:hover, a:active {
-	color: #000000;
+.footer a:hover {
+	color: #0084FF;
 }
