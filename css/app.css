@@ -36,6 +36,27 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /********************************
+ *			 TOP
+ ********************************/
+ .top {
+ 	display: inline-block;
+ }
+
+ .photo {
+ 	float: left;
+ }
+
+ .photo img {
+ 	max-width: 100px;
+ 	border-radius: 100%;
+ 	margin-right: 20px
+ }
+
+ .code {
+ 	text-align: left;
+ }
+
+/********************************
  *			FOOTER
  ********************************/
 
