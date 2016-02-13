@@ -58,10 +58,11 @@ a:link, a:visited, a:hover, a:active {
 
  .code {
  	text-align: left;
+ 	padding-top: 5px;
  }
 
  .signature {
- 	width: 550px;
+ 	width: 560px;
  }
 
 /********************************
