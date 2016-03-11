@@ -4,6 +4,7 @@
 
 html, body {
     height: 100%;
+    background-color: #333;
 }
 
 body {
@@ -12,7 +13,9 @@ body {
     width: 100%;
     display: table;
     font-weight: 100;
-    font-family: 'Lato';
+    /*font-family: 'Lato';*/
+
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -20,10 +23,13 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 20px;
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 
 a:link, a:visited, a:hover, a:active {
 	color: #000000;
+    text-decoration: none;
 }
 
 /********************************
@@ -39,35 +45,49 @@ a:link, a:visited, a:hover, a:active {
 	padding-top: 35%;
 }
 
+
 /********************************
  *			 TOP
  ********************************/
  .top {
  	display: inline-block;
+    color: #ffffff;
  }
 
- .photo {
- 	float: left;
- }
 
- .photo img {
- 	max-width: 100px;
- 	border-radius: 100%;
- 	margin-right: 20px
- }
+/********************************
+ *          DESCRIPTION
+ ********************************/
 
- .code {
- 	text-align: left;
- 	padding-top: 5px;
- }
+.description {
+    color: #ffffff;
+    padding-bottom: 35px;
+}
 
- .signature {
- 	width: 560px;
- }
+a:link, a:visited, a:hover, a:active {
+    color: #0084FF;
+}
+
+.description a {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+a:hover, a:active {
+    border-top: 1px solid #0084FF;
+    border-bottom: 1px solid #0084FF;
+
+}
+
 
 /********************************
  *			FOOTER
  ********************************/
+
+ .footer a {
+    color: #ffffff;
+ }
 
 .footer a:hover {
 	color: #0084FF;
