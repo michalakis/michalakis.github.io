@@ -45,11 +45,13 @@ a:link, a:visited, a:hover, a:active {
 [data-carousel-3d] [data-prev-button]:before {
   content: "Previous";
   color: #ffffff;
+  cursor: pointer;
 }
 
 [data-carousel-3d] [data-next-button]:before {
   content: "Next";
   color: #ffffff;
+  cursor: pointer;
 }
 
 
