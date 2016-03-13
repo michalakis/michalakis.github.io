@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	// make stuff blink
-    setInterval(function() {
-        $('.blink').toggle();
-    }, 1000);
+    // change next/previous buttons on carousel
+
 });

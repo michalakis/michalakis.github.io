@@ -42,14 +42,15 @@ a:link, a:visited, a:hover, a:active {
     padding: 15%;
 }
 
+[data-carousel-3d] [data-prev-button]:before {
+  content: "Previous";
+  color: #ffffff;
+}
 
-/********************************
- *			 TOP
- ********************************/
- .top {
- 	display: inline-block;
-    color: #ffffff;
- }
+[data-carousel-3d] [data-next-button]:before {
+  content: "Next";
+  color: #ffffff;
+}
 
 
 /********************************
