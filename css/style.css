@@ -1,5 +1,11 @@
+body {
+    background-color: darkslategray;
+    transition: background-color 1s ease;
+}
+
 p {
     text-align: center;
     color: white;
-    margin: 50% 0;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
